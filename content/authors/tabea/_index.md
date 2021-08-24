@@ -6,7 +6,7 @@ title: Tabea Tietz
 superuser: false
 
 # Role/position/tagline
-role: Tutor
+role: Co-Author
 
 # Organizations/Affiliations to show in About widget
 organizations:

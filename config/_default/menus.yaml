@@ -4,9 +4,18 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: /
+#  - name: Home
+#    url: /
+#    weight: 10
+  - name: SPARQL
+    url: http://ddbkg.fiz-karlsruhe.de
     weight: 10
-  - name: Documentation
-    url: docs/
+  - name: GitHub
+    url: https://github.com/ISE-FIZKarlsruhe/ddbkg
     weight: 20
+  - name: Publications
+    url: publication/
+    weight: 20
+#  - name: Documentation
+#    url: docs/
+#    weight: 40

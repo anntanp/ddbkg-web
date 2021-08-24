@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'My Project' # Website name
-baseurl: '' # Website URL
+title: 'DDB-KG' # Website name
+baseurl: 'https://ISE-FIZKarlsruhe.github.io/ddbkg' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################
@@ -43,6 +43,9 @@ permalinks:
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  #for WepAppManifest errors
+  #hugo mod clean; hugo mod get -u ./...; hugo mod tidy
+  #home: [HTML, RSS, JSON]
   section: [HTML, RSS]
 markup:
   defaultMarkdownHandler: goldmark

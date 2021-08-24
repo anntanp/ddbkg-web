@@ -6,7 +6,7 @@ title: Danilo Dessì
 superuser: false
 
 # Role/position/tagline
-role: Author
+role: Co-Author
 
 # Organizations/Affiliations to show in About widget
 organizations:
