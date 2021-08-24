@@ -6,7 +6,7 @@ title: Harald Sack
 superuser: false
 
 # Role/position/tagline
-role: Co-Author
+role: Co-Author, Supervisor
 
 # Organizations/Affiliations to show in About widget
 organizations:

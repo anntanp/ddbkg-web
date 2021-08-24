@@ -3,12 +3,14 @@ widget: hero
 headless: true
 weight: 10
 title: DDB-KG
-hero_media: book.svg
+hero_media: dandelion-grey-medium.png
 design:
   background:
-    gradient_start: '#4bb4e3'
-    gradient_end: '#2b94c3'
+    gradient_start: '#2b94c3'
+    gradient_end: '#4bb4e3'
     text_color_light: true
+#    gradient_start: '#a6a6b5'    
+#    gradient_end: '#b9c0cd'
 cta:
 #  url: docs/
 #  label: Get Started
