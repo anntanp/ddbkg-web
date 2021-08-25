@@ -14,8 +14,8 @@ font_size: L
 
 site_type: Project
 local_business_type: ''
-org_name: ''
-description: ''
+org_name: 'FIZ Karlsruhe'
+description: 'Resources for the DDB-KG Project.'
 twitter: ''
 
 # Site header
@@ -73,7 +73,7 @@ comments:
   commento:
     url: ''
 search:
-  provider: wowchemy
+  provider: fiz-karlsruhe
   algolia:
     app_id: ''
     api_key: ''

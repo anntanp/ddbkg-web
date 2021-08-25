@@ -30,4 +30,4 @@ cta_alt:
 #    </span>
 ---
 
-is a Knowledge Graph constructed out of the rich collection of the German Digital Library or [*Deutsche Digitale Bibliothek*](https://www.deutsche-digitale-bibliothek.de).
+is an ongoing project that aims to construct a Knowledge Graph out of the rich collection of the German Digital Library or *Deutsche Digitale Bibliothek* ([DDB]((https://www.deutsche-digitale-bibliothek.de))). This project is managed by [FIZ Karlsruhe (ISE)](https://www.fiz-karlsruhe.de/de/forschung/information-service-engineering).
