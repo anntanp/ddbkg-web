@@ -2,13 +2,13 @@
 # Title, summary, and page position.
 linktitle: Examples
 summary: Example SPARQL Queries based on a few competency questions.
-weight: 1
+weight: 2
 icon: book
 icon_pack: fas
 
 # Page metadata.
 title: Competency Questions and sample SPARQL Queries
-date: "2018-09-09T00:00:00Z"
+date: "2021-08-25T00:00:00Z"
 type: book  # Do not modify.
 ---
 ### CQ1
@@ -36,7 +36,7 @@ type: book  # Do not modify.
 
 ----
 ### CQ2   
-  - Look for all DDB objects created by "Schiller" with title "Räuber", exclude partial objects
+  - Look for all items created by "Schiller" with title "Räuber", exclude partial objects.
     ```
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
