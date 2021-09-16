@@ -8,11 +8,11 @@ authors:
 - danilo
 - harald
 
-date: "2021-08-24T00:00:00Z"
+date: "2021-09-30T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-08-17T00:00:00Z"
+publishDate: "2021-09-16T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -21,10 +21,10 @@ publishDate: "2021-08-17T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *The 20th International Semantic Web Conference*
-publication_short: In *ISWC 2021*
+publication: In *Histoinformatics 2021*
+publication_short: In Histoinformatics2021
 
-abstract: Cultural heritage portals have the goal of providing users with seamless access to all of their resources. This paper introduces initial efforts for a user-oriented restructuring of the German Digital Library (DDB). At present, cultural heritage objects (CHOs) in the DDB are modeled using an extended version of the Europeana Data Model (DDB- EDM), which negatively impacts usability and exploration. These challenges can be addressed by exploiting ontologies, and building a knowledge graph from the DDB’s voluminous collection. Towards this goal, an alignment of bibliographic metadata from DDB-EDM to FRBR-Aligned Bibliographic Ontology (FaBiO) is presented.
+abstract: Under the German government's initiative "NEUSTART Kultur", the German Digital Library or *Deutsche Digitale Bibliothek* (DDB) is undergoing improvements to enhance user-experience. As an initial step, emphasis is placed on creating a knowledge graph from the bibliographic record collection of the DDB. This paper discusses the challenges facing the DDB in terms of retrieval and the solutions in addressing them. In particular, limitations of the current data model or ontology to represent bibliographic metadata is analyzed through concrete examples. This study presents the complete ontological mapping from DDB-Europeana Data Model (DDB-EDM) to FaBiO, and a prototype of the DDB-KG made available as a SPARQL endpoint. The suitabiliy of the target ontology is demonstrated with SPARQL queries formulated from competency questions.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -36,10 +36,10 @@ tags:
 featured: true
 
 links:
-- name: Mapping
-  url: https://bit.ly/3qBxxCo
-url_pdf: 'https://easychair.org/publications/preprint/K7hF'
-url_code: 'https://github.com/ISE-FIZKarlsruhe/ddbkg'
+#- name: Mapping
+#  url: https://bit.ly/3qBxxCo
+#url_pdf: 'https://easychair.org/publications/preprint/K7hF'
+#url_code: 'https://github.com/ISE-FIZKarlsruhe/ddbkg'
 #url_dataset: 'http://ddbkg.fiz-karlsuhe.de'
 #url_poster: '#'
 #url_project: ''
@@ -72,8 +72,7 @@ slides: example
 ---
 
 {{% callout note %}}
-To be presented at [The 20th International 
-Semantic Web Conference](https://iswc2021.semanticweb.org) (October 24-28, 2021) - [Posters, Demos & Lightning Talks](https://iswc2021.semanticweb.org/posters-demos).
+To be presented at [Histoinformatics 2021](https://sites.google.com/view/histoinformatics2021workshop/home) (Workshop).
 {{% /callout %}}
 
 
