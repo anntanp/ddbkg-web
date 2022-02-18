@@ -19,21 +19,27 @@ organizations:
 #bio: In this lecture, the students will learn the fundamentals of natural language processing, knowledge mining, linked data engineering, as well as information retrieval required for the development of information services.
 
 # Interests to show in About widget
-#interests:
-#- Natural Language Processing
-#- Knowledge Graphs
-#- Machine Learning
-#- Information Retrieval
+interests:
+- Natural Language Processing
+- Machine Learning
+- Knowledge Graphs
+- Digital Humanities
+- Semantic Web
+- Information Retrieval
 
 # Education to show in About widget
-#education:
-#  courses:
-#  - course:
-#    institution:
-#    year:
-#  - course:
-#    institution:
-#    year:
+education:
+  courses:
+  - course: Master of Science in Computational Linguistics
+    institution: Ludwig Maximilian University of Munich
+    year: 2018-2020
+  - course: Master of Science in Computer Science
+    institution: De La Salle University Manila
+    year: 2002-2004 (Completed course requirements and thesis proposal)
+  - course: Bachelor of Science in Computer Science, Major in Computer Engineering
+    institution: De La Salle University Manila
+    year: 1997-2001
+  
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -43,26 +49,26 @@ social:
 #- icon: envelope
 #  icon_pack: fas
 #  link: '/#contact'
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/merrytann555
   # Alternatively, use `google-scholar` icon from `ai` icon pack, 'fas' and 'graduation-cap'
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?user=8N_u7TcAAAAJ
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=5YgD4pgAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/anntanp
 - icon: linkedin
   icon_pack: fab
-  link: https://www.fiz-karlsruhe.de/de/forschung/lebenslauf-und-publikationen-mary-ann-tan
+  link: https://www.linkedin.com/in/anntanp/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: media/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: https://www.fiz-karlsruhe.de/de/forschung/lebenslauf-und-publikationen-mary-ann-tan
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "ann.tan@fiz-karlsruhe.de"

@@ -38,14 +38,14 @@ featured: true
 links:
 - name: Mapping
   url: https://bit.ly/3qBxxCo
-url_pdf: 'https://easychair.org/publications/preprint/K7hF'
+url_pdf: 'http://ceur-ws.org/Vol-2980/paper348.pdf'
 url_code: 'https://github.com/ISE-FIZKarlsruhe/ddbkg'
-#url_dataset: 'http://ddbkg.fiz-karlsuhe.de'
-#url_poster: '#'
+url_dataset: 'https://zenodo.org/record/5668376'
+url_poster: 'https://ise-fizkarlsruhe.github.io/ddbkg/pdfs/iswc2021-poster348-tan.pdf'
 #url_project: ''
 #url_slides: ''
 #url_source: '#'
-#url_video: '#'
+url_video: 'https://www.youtube.com/watch?v=SUiswcvQitQ'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

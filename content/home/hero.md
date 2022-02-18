@@ -21,7 +21,7 @@ cta:
   icon_pack: fas
   icon: download
 cta_alt:
-  url: http://ddbkg.fiz-karlsruhe.de
+  url: http://ddbkg.fiz-karlsruhe.de/sparql
   label: SPARQL Endpoint
 #cta_note:
 #  label: >-
@@ -30,4 +30,4 @@ cta_alt:
 #    </span>
 ---
 
-is an ongoing project that aims to construct a Knowledge Graph out of the rich collection of the German Digital Library or *Deutsche Digitale Bibliothek* ([DDB](https://www.deutsche-digitale-bibliothek.de)). This project is managed by [FIZ Karlsruhe (ISE)](https://www.fiz-karlsruhe.de/de/forschung/information-service-engineering).
+is an ongoing project that aims to construct a Knowledge Graph out of the rich collection of the German Digital Library or *Deutsche Digitale Bibliothek* ([DDB](https://www.deutsche-digitale-bibliothek.de)). This project is managed by [FIZ Karlsruhe](https://www.fiz-karlsruhe.de/) - ([Information Services Engineering](https://www.fiz-karlsruhe.de/de/forschung/information-service-engineering)).
