@@ -1,6 +1,6 @@
 ---
 # Title, summary, and page position.
-linktitle: Examples
+linktitle: Competency Questions
 summary: Example SPARQL Queries based on a few competency questions.
 weight: 2
 icon: book
@@ -11,6 +11,7 @@ title: Competency Questions and sample SPARQL Queries
 date: "2021-08-25T00:00:00Z"
 type: book  # Do not modify.
 ---
+## Libraries (FaBiO)
 ### CQ1
   - Look for all works of author "Schiller"
     ```
@@ -326,3 +327,18 @@ type: book  # Do not modify.
     ```
     {{< cta cta_text="Run 👉" cta_link="https://ddbkg.fiz-karlsruhe.de/sparql?default-graph-uri=&qtxt=PREFIX+dct%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+dbc%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCategory%3A%3E%0D%0APREFIX+dbo%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0APREFIX+fabio%3A+%3Chttp%3A%2F%2Fpurl.org%2Fspar%2Ffabio%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+dcterms%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+wdt%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0D%0APREFIX+schema%3A+%3Chttp%3A%2F%2Fwww.schema.org%2F%3E%0D%0APREFIX+frbr%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvocab%2Ffrbr%2Fcore%23%3E%0D%0A++++%0D%0ASELECT+DISTINCT+%3FotherAuthors+%3Ftitle+%3Fddbitem+WHERE+%7B++%0D%0A++++SERVICE+%3Chttp%3A%2F%2Fdbpedia.org%2Fsparql%3E+%7B%0D%0A++++++%3Fs+rdfs%3Alabel+%22Friedrich+Schiller%22%40de+.%0D%0A++++++%3Fs+dbo%3Amovement+%3Fmovement+.%0D%0A++++++%3Fother+dbo%3Amovement+%3Fothermovement+.%0D%0A++++++%3Fother+rdfs%3Alabel+%3FotherAuthors+FILTER+%28LANG%28%3FotherAuthors%29%3D%22de%22%29+.%0D%0A++++++FILTER+%28%28%3Fmovement+%3D+%3Fothermovement%29+AND+%28%3Fother+%21%3D+%3Fs%29%29%0D%0A+++%7D%0D%0A%0D%0A+++%3Fddbitem+rdf%3Atype+fabio%3AAnalogItem+FILTER+%28%0D%0A+++++%21EXISTS+%7B%0D%0A+++++++%3Fddbitem+dcterms%3AisPartOf+%3Fparent%0D%0A+++++%7D%0D%0A++%29%0D%0A+++%3Fddbitem+dcterms%3Atitle+%3Ftitle+%3B%0D%0A++++++dcterms%3Acreator+%3Fcreator+.%0D%0A+++%3Fcreator+a+foaf%3APerson+%3B%0D%0A++++++foaf%3AlastName+%3FlastName+%3B%0D%0A++++++foaf%3AgivenName+%3FfirstName+.%0D%0A+++BIND+%28CONCAT%28%3FfirstName%2C+%22+%22%2C+%3FlastName%29+AS+%3FddbName+%29.%0D%0A+++FILTER+regex%28%3FddbName%2C+%3FotherAuthors%2C+%22i%22%29%0D%0A%7D&format=text%2Fx-html%2Btr&should-sponge=&timeout=0&signal_void=on" >}}
 
+## Audio (MO & ACO)
+The following CQs are from Ceriani et al. (2018) & Turchet et al. (2020):
+### CQ0 Template
+- Question
+    ```
+    SELECT
+    ```
+    {{< cta cta_text="Run 👉" cta_link="" >}}
+
+
+
+## References:
+[1] Ceriani, M., Fazekas, G.: Audio Commons Ontology: A Data Model for an AudioContent Ecosystem. In: SEMWEB (2018)
+
+[2] L. Turchet, F. Antoniazzi, F. Viola, F. Giunchiglia, and G. Fazekas: The Internet of Musical Things Ontology. In Journal of Web Semantics 60, 100548 (2020)

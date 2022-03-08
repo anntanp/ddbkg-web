@@ -1,8 +1,8 @@
 ---
 # Title, summary, and page position.
-linktitle: DDB-EDM to FaBiO
+linktitle: Libraries (FaBiO)
 summary: Alignment of DDB-EDM to FaBiO
-weight: 1
+weight: 3
 icon: book
 icon_pack: fas
 
