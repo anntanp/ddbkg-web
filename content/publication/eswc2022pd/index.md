@@ -1,18 +1,15 @@
 ---
-title: "DDB-EDM to FaBiO: the Case of the German Digital Library"
+title: "Audio Ontologies for Intangible Cultural Heritage"
 authors:
 - ann
-- tabea
-- sasha
-- Jonas Oppenlaender
-- danilo
+- Etienne Posthumus
 - harald
 
-date: "2021-08-24T00:00:00Z"
+date: "2022-04-04T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-08-17T00:00:00Z"
+publishDate: "2022-04-04T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -21,10 +18,10 @@ publishDate: "2021-08-17T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *The 20th International Semantic Web Conference*
-publication_short: In *ISWC 2021*
+publication: UPCOMING in *The 19th European Semantic Web Conference*
+publication_short: In *ESWC22 P&D*
 
-abstract: Cultural heritage portals have the goal of providing users with seamless access to all of their resources. This paper introduces initial efforts for a user-oriented restructuring of the German Digital Library (DDB). At present, cultural heritage objects (CHOs) in the DDB are modeled using an extended version of the Europeana Data Model (DDB- EDM), which negatively impacts usability and exploration. These challenges can be addressed by exploiting ontologies, and building a knowledge graph from the DDB’s voluminous collection. Towards this goal, an alignment of bibliographic metadata from DDB-EDM to FRBR-Aligned Bibliographic Ontology (FaBiO) is presented.
+abstract: Cultural heritage (CH) portals often contain intangible objects digitized as audio files. This paper presents and discusses the adaptation of existing audio ontologies intended for non-CH applications. The resulting alignment of the German Digital Library-Europeana Data Model (DDB-EDM) with Music Ontology (MO) and Audio Commons Ontology (ACO) is presented.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -37,21 +34,21 @@ featured: true
 
 links:
 - name: Mapping
-  url: https://bit.ly/3qBxxCo
-url_pdf: 'http://ceur-ws.org/Vol-2980/paper348.pdf'
-url_code: 'https://github.com/ISE-FIZKarlsruhe/ddbkg'
-url_dataset: 'https://zenodo.org/record/5668376'
-url_poster: 'https://ise-fizkarlsruhe.github.io/ddbkg/pdfs/iswc2021-poster348-tan.pdf'
+  url: https://ise-fizkarlsruhe.github.io/ddbkg/docs/audio/
+#url_pdf: 'http://ceur-ws.org/Vol-2980/paper348.pdf'
+#url_code: 'https://github.com/ISE-FIZKarlsruhe/ddbkg'
+url_dataset: 'https://ddbkg.fiz-karlsruhe.de/sparql'
+#url_poster: 'https://ise-fizkarlsruhe.github.io/ddbkg/pdfs/iswc2021-poster348-tan.pdf'
 #url_project: ''
 #url_slides: ''
 #url_source: '#'
-url_video: 'https://www.youtube.com/watch?v=SUiswcvQitQ'
+#url_video: 'https://www.youtube.com/watch?v=SUiswcvQitQ'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   #caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  caption: DDB-EDM to FaBiO Alignment 
+  caption: DDB-EDM to MO and ACO 
   focal_point: ""
   preview_only: false
 
@@ -72,8 +69,8 @@ slides: example
 ---
 
 {{% callout note %}}
-Presented at [The 20th International 
-Semantic Web Conference](https://iswc2021.semanticweb.org) (October 24-28, 2021) - [Posters, Demos & Lightning Talks](https://iswc2021.semanticweb.org/posters-demos).
+To be presented at [The 19th European 
+Semantic Web Conference](https://2022.eswc-conferences.org) (May 29 - June 2, 2022) - [Posters, Demos & Lightning Talks](https://2022.eswc-conferences.org/call-for-posters-and-demos/).
 {{% /callout %}}
 
 

@@ -54,11 +54,11 @@ section_pager: false
 docs_section_pager: true
 sharing: true
 copyright_license:
-  enable: false
+  enable: True
   allow_derivatives: false
   share_alike: true
   allow_commercial: false
-  notice: 'This work is licensed under {license}'
+  notice: '© {2022} FIZ Karlsruhe GmbH. This website is maintained by <a href="mailto:ann.tan@fiz-karlsruhe.de">Mary Ann Tan</a>.'
 plugins_js: []
 breadcrumb:
   page_types:
