@@ -19,9 +19,9 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: UPCOMING in *The 19th European Semantic Web Conference*
-publication_short: In *ESWC22 P&D*
+publication_short: UPCOMING In *ESWC22 P&D*
 
-abstract: Cultural heritage (CH) portals often contain intangible objects digitized as audio files. This paper presents and discusses the adaptation of existing audio ontologies intended for non-CH applications. The resulting alignment of the German Digital Library-Europeana Data Model (DDB-EDM) with Music Ontology (MO) and Audio Commons Ontology (ACO) is presented.
+abstract: Cultural heritage portals often contain intangible objects digitized as audio files. This paper presents and discusses the adaptation of existing audio ontologies intended for non-cultural heritage applications. The resulting alignment of the German Digital Library-Europeana Data Model (DDB-EDM) with Music Ontology (MO) and Audio Commons Ontology (ACO) is presented.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -30,12 +30,14 @@ tags:
 - Ontology
 - Cultural Heritage
 - Digital Library
+- Digital Humanities
+- Audio
 featured: true
 
 links:
 - name: Mapping
   url: https://ise-fizkarlsruhe.github.io/ddbkg/docs/audio/
-#url_pdf: 'http://ceur-ws.org/Vol-2980/paper348.pdf'
+url_pdf: 'https://easychair.org/publications/preprint_open/d5Pk'
 #url_code: 'https://github.com/ISE-FIZKarlsruhe/ddbkg'
 url_dataset: 'https://ddbkg.fiz-karlsruhe.de/sparql'
 #url_poster: 'https://ise-fizkarlsruhe.github.io/ddbkg/pdfs/iswc2021-poster348-tan.pdf'
